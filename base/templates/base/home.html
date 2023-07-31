@@ -1,0 +1,117 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Justin Pham</title>
+    <!-- <link href=> -->
+    <link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card card-body" id="profile-wrapper">
+                    <img src="{% static 'images/headshot.jpg' %}">
+                    <hr>
+                    <h4>Hello, I'm Justin!</h4>
+                    <p> I love coding, collaborating in a team, and learning!</p>
+                </div>
+
+
+
+
+            </div>
+            <div class="col-md-9">
+                <div class="card card-body">
+                    <h4>About Me!</h4>
+                    <hr>
+                    <p> I am currently a student at the University of Maryland majoring in Computer Science! My passion
+                        is learning computer science. I currently am exploring web development through Python and
+                        Django! In fact, this website was built with Django. I am always open to exploring
+                        different concepts and expanding my knowledge so please feel free to reach out!</p>
+                    <p>
+                        Please explore this website and take a look at some of what I have to offer!
+                    </p>
+
+                    <ul class="social-links">
+
+                        <li><a href=”https://www.linkedin.com/in/justin-pham-963651272/“><img class="social"
+                                    src="{% static 'images/linkedin.png' %}"></a></li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5> My Experiences in CS</h5>
+                    <hr>
+                    <p> Not only do I enjoy learning from my Computer Science Classes at the University of Maryland, I
+                        also enjoy participating in self learning.
+
+                    </p>
+
+                    <p> Not only do I enjoy practicing leetcodes and working on CS projects with Django, I also have
+                        participated in hackathons. In my local county Hackathon, I worked with a team to utilize
+                        the twitter API and Clarafai ML algorithm and its image recognition system to create a profanity
+                        filter. Interesting!!!
+
+                    </p>
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5> What I Know!</h5>
+                    <hr>
+                    <p>I am skilled in OOP, so languages like Java, C and Python come easy to me. I am also fairly
+                        proficient in basic web development with Django, HTML, and CSS. Not only that, but I also have
+                        experience working with Assembly and SQL. </p>
+
+                    <p>Some relevant coursework I have taken (or am taking) include: Object Oriented Programming 1 and
+                        2, Calculus I-III, Linear Algebra, Computer Systems, Discrete Structures, Applied Probability
+                        and Statistics
+
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>How I Work!</h5>
+                    <hr>
+                    <p>I am great working with teams, and I pride myself in my ability to communicate. My current job as
+                        an RA requires me to communicate with hundreds of students, teammates, and professionals to
+                        facilitate a diverse and community-based environment!</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>My Short Term Goals</h5>
+                    <hr>
+                    <p>I want to learn more and find my calling! That is why I want to take advantage of opportunities
+                        and explore the many fields of Computer Science through internships or research fellowships.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
